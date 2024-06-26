@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./voto.svg" type="image/svg">
+    <link rel="stylesheet" href="style.css">
+    <script src="voto.js" defer></script>
+    <title>Verificar voto</title>
+</head>
+<body>
+    <h1>Sistema para verificar a necessidade de voto</h1>
+    <label for="nome">Digite seu nome: </label><br><br>
+    <input type="text" id="nome" placeholder="Nome"><br><br>
+
+    <label for="idade">Digite sua idade: </label><br><br>
+    <input type="text" id="idade" placeholder="Idade"><br><br><br>
+
+    <button onclick="verVoto()"><b>Verificar</b></button><br><br>
+    <div id="resposta"></div>
+</body>
+</html>

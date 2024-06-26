@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(to top, skyblue, white);
+    color: black;
+    height: 100vh;
+    padding-left: 45px;
+    font-size: 1.5rem;
+}
+
+input{
+    width: 200px;
+    height: 23px;
+    text-align: center;
+    border: solid black 3px;
+}
+
+input:hover{
+    transition: 2s;
+    width: 16rem;
+    height: 3rem;
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    border: solid black 3px;
+    font-size: large;
+}
+
+button:hover{
+    transition: 1s;
+    width: 15rem;
+    height: 3rem;
+}
